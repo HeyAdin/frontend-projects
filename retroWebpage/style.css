@@ -24,10 +24,11 @@ html,body{
 }
 
 #page1{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: #c4bcb3;
     position: relative;
+    overflow-x: hidden;
 }
 
 .nav{
@@ -178,5 +179,11 @@ html,body{
     font-family: canopee;
     background-color: #1c1c19;
     color: #c4bcb3 ;
-    font-size: 655px;
+    font-size: 680px;
+    margin: 40px 30px;
+    text-align: center;
+    width: 95vw;
+    font-weight: 100;
+    line-height: 560px;
+    letter-spacing: -25px;
 }
